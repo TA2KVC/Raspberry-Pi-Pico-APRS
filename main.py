@@ -23,7 +23,7 @@ def blink():
 # BME280 sensorum olmadigi icin Hava durumu bilgilerini openweather.org sitesinden aldim. Veri APRS kod paketi icin imperial birimde aliniyor,  
 def openwe():
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
-    response = requests.get('https://api.openweathermap.org/data/2.5/weather?id=323786&appid={API_SIFRE}&units=imperial', headers=headers)
+    response = requests.get('https://api.openweathermap.org/data/2.5/weather?id={Sehir kodu, ornek:Ankara=323786}&appid={API_SIFRE}&units=imperial', headers=headers)
     data = response.json()
     sick = (data['main']['temp'])
     sicak = ("%03d" % (sick,))
