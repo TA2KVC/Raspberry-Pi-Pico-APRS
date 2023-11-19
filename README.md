@@ -12,3 +12,4 @@ APRS sunucularına; Amatör Telsiz Çağrı İşareti, konum koordinatları ve h
 aprs.fi sitesinden takip edebilirsiniz.
 
 BME280 veya DHT11-DHT22 sensör de kullanılabilir.
+![3643332-40](https://github.com/TA2KVC/Raspberry-Pi-Pico-APRS/assets/62475996/a7854954-014a-40e6-9c1a-179c3f0574c3)
