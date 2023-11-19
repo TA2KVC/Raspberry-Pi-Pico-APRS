@@ -56,9 +56,9 @@ print( 'Wifi SSID :' + status1 )
 status2 = sta_if.ifconfig()
 print( 'IP Adresi :' + status2[0] )
 
-a = 0
-while a <= 9:
-  a += 1
+a = 0 # ya da while True:
+while a <= 9: # ya da while True:
+  a += 1 # ya da while True:
   aprsUser = 'XX2XXX' #Amator Telsiz Cagri Isareti // Callsign
   aprsPass = 'xxxxx' #APRS cagri isareti temelli sifre --> http://n5dux.com/ham/aprs-passcode/
   formato = 'utf-8'
